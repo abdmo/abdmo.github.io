@@ -1,4 +1,0 @@
----
-slug: sfw
-name: SFW
----
