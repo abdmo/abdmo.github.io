@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Print variable in Makefile"
-description: "Neat stuff"
+description: "See title."
 tags: [c, howto]
 ---
 
@@ -14,3 +14,5 @@ To use it:
 ```shell
 $ make print-<VARIABLE>
 ```
+
+edit: more meaningful(?) description.
