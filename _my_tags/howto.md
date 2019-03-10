@@ -1,4 +1,0 @@
----
-slug: howto
-name: Howto
----
