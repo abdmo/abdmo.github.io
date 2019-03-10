@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Fattah Zaki</title>
+    <description></description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Use maximum CPU frequency</title>
+        <description>Running CPU at top speed.</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0800</pubDate>
+        <link>/posts/use-max-cpu-frequency</link>
+        <guid isPermaLink="true">/posts/use-max-cpu-frequency</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>The 'watch' command</title>
+        <description>Execute a program periodically. Useful to monitor program output without manually running the command.</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0800</pubDate>
+        <link>/posts/the-watch-command</link>
+        <guid isPermaLink="true">/posts/the-watch-command</guid>
+      </item>
+    
+      <item>
+        <title>Network performance tuning</title>
+        <description>A BKM that I found on the net regarding different ways to avoid bottlenecks in network performance.</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0800</pubDate>
+        <link>/posts/network-performance-tuning</link>
+        <guid isPermaLink="true">/posts/network-performance-tuning</guid>
+      </item>
+    
+      <item>
+        <title>Inter-event trace in kernel</title>
+        <description>Utilizing histogram triggers to do inter-event trace in kernel.</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0800</pubDate>
+        <link>/posts/inter-event-trace-in-kernel</link>
+        <guid isPermaLink="true">/posts/inter-event-trace-in-kernel</guid>
+      </item>
+    
+      <item>
+        <title>Get kernel config from currently running linux</title>
+        <description>Ditto.</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0800</pubDate>
+        <link>/posts/get-kernel-config-from-currently-running-linux</link>
+        <guid isPermaLink="true">/posts/get-kernel-config-from-currently-running-linux</guid>
+      </item>
+    
+      <item>
+        <title>Arguments on bash</title>
+        <description>A template to take argument options on bash.</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0800</pubDate>
+        <link>/posts/arguments-on-bash</link>
+        <guid isPermaLink="true">/posts/arguments-on-bash</guid>
+      </item>
+    
+      <item>
+        <title>How to replace master branch entirely with another feature branch</title>
+        <description>Not a good practice. But desperate times call for desperate measures.</description>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 +0800</pubDate>
+        <link>/posts/how-to-replace-master-branch-entirely</link>
+        <guid isPermaLink="true">/posts/how-to-replace-master-branch-entirely</guid>
+      </item>
+    
+      <item>
+        <title>How to rebase</title>
+        <description>How to do git rebase in different cases.</description>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 +0800</pubDate>
+        <link>/posts/how-to-rebase</link>
+        <guid isPermaLink="true">/posts/how-to-rebase</guid>
+      </item>
+    
+      <item>
+        <title>How to push commit for gerrit review</title>
+        <description>Pushing commit to gerrit review.</description>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 +0800</pubDate>
+        <link>/posts/how-to-push-commit-for-gerrit-review</link>
+        <guid isPermaLink="true">/posts/how-to-push-commit-for-gerrit-review</guid>
+      </item>
+    
+      <item>
+        <title>How to apply patch</title>
+        <description>The almost perfect way to apply patch on git. Taking into account conflict handling when applying patch.</description>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 +0800</pubDate>
+        <link>/posts/how-to-apply-patch</link>
+        <guid isPermaLink="true">/posts/how-to-apply-patch</guid>
+      </item>
+    
   </channel>
 </rss>
