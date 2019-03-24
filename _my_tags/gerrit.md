@@ -1,4 +1,0 @@
----
-slug: gerrit
-name: Gerrit
----
