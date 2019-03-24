@@ -1,4 +1,0 @@
----
-slug: performance
-name: Performance
----
